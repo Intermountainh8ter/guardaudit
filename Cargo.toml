@@ -1,0 +1,23 @@
+[package]
+name = "guardaudit"
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+description = "Safety-classifier calibration audit: Brier, ECE, and per-threshold precision/recall under OOD distribution shift."
+repository = "https://github.com/Intermountainh8ter/guardaudit"
+keywords = ["llm", "safety-classifier", "calibration", "llama-guard", "audit"]
+categories = ["command-line-utilities", "science"]
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+
+[[bin]]
+name = "guardaudit"
+path = "src/main.rs"
+
+[lib]
+name = "guardaudit"
+path = "src/lib.rs"
