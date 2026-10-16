@@ -11,6 +11,8 @@
 use rand::SeedableRng;
 use rand_pcg::Pcg64Mcg;
 
+pub mod http;
+
 /// Brier score: mean squared error between predicted probability and
 /// binary label. Lower is better. 0.0 is perfect.
 pub fn brier(predictions: &[f64], labels: &[bool]) -> f64 {
