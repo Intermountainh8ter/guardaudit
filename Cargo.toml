@@ -1,6 +1,7 @@
 [package]
 name = "guardaudit"
-version = "0.0.1"
+version = "0.1.0"
+authors = ["Intermountainh8ter"]
 edition = "2021"
 license = "MIT"
 description = "Safety-classifier calibration audit: Brier, ECE, and per-threshold precision/recall under OOD distribution shift."
