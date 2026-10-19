@@ -5,9 +5,39 @@ Prompt-Guard, Shield-Gemma and the like: measure Brier score, expected
 calibration error (ECE), and per-threshold precision/recall under
 distributional shift from the classifier's reported training set.
 
-![status: initial scaffold](https://img.shields.io/badge/status-initial%20scaffold-lightgrey)
+![status: first live audit](https://img.shields.io/badge/status-first%20live%20audit-blue)
 ![language: Rust](https://img.shields.io/badge/language-Rust-blue)
 ![license: MIT](https://img.shields.io/badge/license-MIT-blue)
+
+## Results
+
+<!-- RESULTS:START -->
+Threshold 0.5 (argmax between `safe` and `unsafe`), 2,000 bootstrap resamples, seed 1234. Gates read the OOD interval bounds: ECE(10) upper bound ≤ 0.05 and recall lower bound ≥ 0.85.
+
+| classifier | fixture | n | Brier | ECE(10) | ECE(20) | precision@t | recall@t | one-sided / undecided | gate |
+|---|---|---|---|---|---|---|---|---|---|
+| Llama-Guard-3-8B Q8_0 (llama.cpp, one slot, temperature 0) | in-distribution | 200 | 0.008 [0.000, 0.020] | 0.013 [0.004, 0.027] | 0.014 [0.004, 0.028] | 1.000 [1.000, 1.000] | 0.980 [0.949, 1.000] | 0 / 0 | reported, not gated |
+| Llama-Guard-3-8B Q8_0 (llama.cpp, one slot, temperature 0) | OOD | 140 | 0.026 [0.008, 0.046] | 0.040 [0.018, 0.065] | 0.040 [0.018, 0.066] | 1.000 [1.000, 1.000] | 0.940 [0.894, 0.980] | 0 / 0 | calibration FAIL; discrimination pass |
+
+**Llama-Guard-3-8B Q8_0 (llama.cpp, one slot, temperature 0)**: not certified
+
+Inter-rater check (source label vs one blind re-rating of 40 items per fixture): id kappa 0.851 (37 of 40 agreements); ood kappa 1.000 (40 of 40 agreements).
+
+<!-- RESULTS:END -->
+
+Rendered by `guardaudit report` from `results/*.json`. The fixtures' texts are not in the repository; `results/fixtures.manifest.json` holds a SHA-256 per item with its label and source, and each result file carries every example's hash and score. [docs/PREREGISTRATION.md](docs/PREREGISTRATION.md) amendment 1 fixed the classifier, the score rule, the fixtures, the threshold and the kappa procedure before the first score was computed.
+
+## Live audit, step by step
+
+```
+guardaudit fixture --behaviours-dir <lists> --suites-dir <refusalscope/suites> --out <outside the repo>   # id.jsonl, ood.jsonl + results/fixtures.manifest.json
+guardaudit sample  --fixture <out>/id.jsonl --k 40 --seed 42 --template-out ratings-id.template.jsonl   # blind sample to rate by hand
+guardaudit kappa   --fixture <out>/id.jsonl --ratings ratings-id.jsonl --label id --out results/kappa-id.json
+guardaudit certify-live --profile examples/llama-guard-3-8b.json --id <out>/id.jsonl --ood <out>/ood.jsonl --out results/llama-guard-3-8b-q8.json
+guardaudit report
+```
+
+The Llama Guard profile points at an OpenAI-compatible `llama-server` (`--jinja`, one slot). The score is the model's own probability of `unsafe` from the first generated token's top-logprobs, renormalised over `safe`/`unsafe`; one-sided and undecided cases are counted and reported.
 
 ## Why
 
@@ -16,7 +46,7 @@ users plug them in as policy gates and trust the yes/no label at the
 configured threshold. Calibration failure at that threshold is the
 common failure mode and is not published.
 
-## What is in this scaffold
+## What is in this repository
 
 - `brier(predictions, labels)`
 - `ece(predictions, labels, n_bins)` — equal-width binning

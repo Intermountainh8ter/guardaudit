@@ -1,0 +1,8 @@
+{
+  "name": "Llama-Guard-3-8B Q8_0 (llama.cpp, one slot, temperature 0)",
+  "url": "http://127.0.0.1:8130",
+  "model": "llama-guard-3-8b",
+  "top_logprobs": 10,
+  "timeout_s": 120,
+  "model_sha256": "c3ecd86bbc6ad40c98682524f9f06c69541889804d3cdf285218827bda53bf98"
+}

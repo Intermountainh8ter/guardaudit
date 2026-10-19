@@ -1,0 +1,2055 @@
+{
+  "id": {
+    "items": [
+      {
+        "id": "jailbreakbench-1",
+        "sha256": "60294cb5d88a086f4fa3f92765d881ae5bfa123d53b198e23e67bfe2ba6d977d",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-2",
+        "sha256": "b7b2545e76ea6296571d989ee09c584dddbe55b7b59f741cf62445ca107c4351",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-3",
+        "sha256": "2d2c5781c810e5ad729a5c42eff9aa2532a912698d21e406a200938b4a784e7a",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-4",
+        "sha256": "10130194674cbf8bfaa526bc2dd991f5ccb9e18a55b6d5410a204c3299aaf936",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-5",
+        "sha256": "587a815c09452a664353c01e46d9cef7534e184f1c33c2ed5d2ea5cee977ba70",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-6",
+        "sha256": "997b2716e90f3f8d994d091cbf7c4618c42b9be06a36ce2dec8b18ea1ecb7eb0",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-7",
+        "sha256": "6402e48b142b5645a609cddba1b2434565c79d62adcd271ba62ea141d94680e4",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-8",
+        "sha256": "853a8e6b978dc0e58e7daf43e2bc1e7b6cacbcabd12063861d348812cf506a31",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-9",
+        "sha256": "005781a48b4835026c84917f2433d0b14ed9bde94711289882829259d3d939d5",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-10",
+        "sha256": "7c372039c840fb6dcef301f44447ba9684e6c2a1c8b47592ac0abd7e659da385",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-11",
+        "sha256": "e4fcc40e432a1de99e5cba6a51a3f5d752382eab4dcff14e892a0264cb600284",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-12",
+        "sha256": "d5ea8284b8ff154f05dae7a9a93ad0c63b756c03066e52c1af9abf0dfc88faf4",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-13",
+        "sha256": "be764bd1db7e394c162e35d4079b7161d464301bc1d99ccb5e2f8134650171d9",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-14",
+        "sha256": "0b7dac16eea5116b1774fa04463c496a40c986ab3ad00697adb6c46e048b249d",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-15",
+        "sha256": "c47ca065e2568851a443a7e500d9c287147aad0cec379a78dd95b408554ce752",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-16",
+        "sha256": "20ca69931a7f3f696bd32f521edf3660c9b1990dcff8805e5d716924b31e5e17",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-17",
+        "sha256": "970c85fa32c5242969bf14856f1608858dbf0bb1d8fce08040028357826fa581",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-18",
+        "sha256": "755ac23a2f840f4918ee40961593ea2226696b6d4b779ad7c718fddac22fb5a7",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-19",
+        "sha256": "f371f6d68fb6c045a9f38ab07f41a2add28849af6f921e5b1fff88b6db978c5b",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-20",
+        "sha256": "51efbd986d5b0544d887905a25274dcfa8e2295dbeb8128b0e8b6d17d465cc18",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-21",
+        "sha256": "b78a459f9afcd3830255e7bab46712c6d616758c99b62f91f585dc4a35ecc1f1",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-22",
+        "sha256": "fc477c545737032aba3963232b4ef3fdf1df6e3017a009b9d7269a2c3717ef3b",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-23",
+        "sha256": "2e0889fa4ad6ea8cb01cfea09b853401ff269f4d1ea69d0151643c408f45d490",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-24",
+        "sha256": "33f82200669d90c9d2c1d2a08845a699ce8059a4920e60ba512f50abc686a4d5",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-25",
+        "sha256": "d897d164a8162c1328b68e4cdd7a0c367d86e458acf71561b97a6217bf7f1c70",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-26",
+        "sha256": "8da22a2bb27cf9cdc896a022e77f93c6fd09cb5cd0b10fb4d9d029aaccfee457",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-27",
+        "sha256": "b78b59e2a3c0adcb7508f1e78858639d766c05ec0a14cd996e0ed28854d59a50",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-28",
+        "sha256": "9d7c1f1cdad027ed236a3507ea13384aa36dfa74e012992d1d6c6ecc1087df2a",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-29",
+        "sha256": "e689c20cf634f61b7eac1ca6af098a7b300fd79ef23b2f437eb6bc2b52866f35",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-30",
+        "sha256": "8344cae588f24bd62b6170d4d9468db595e13555f8603d9f9f2be9c2bb9852da",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-31",
+        "sha256": "add373c90c0469e82b4bf82cb9b09ca01216ee30dab8ff5aa88f0a1aedec0e7e",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-32",
+        "sha256": "ed57017341d74a76d322705dbc90cce6661feb6493cf8bdb536565cac52fe66e",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-33",
+        "sha256": "2b5a55d1cc0067b255f5ff0f788e3f7fa0590e0a6ba7f9ca5393a5c791f00822",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-34",
+        "sha256": "8a4b5dc09550b3484e4e36b3e0e048a90d523c1112f6a43edd51680ab205ef7c",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-35",
+        "sha256": "1d701acfc6c6d4faf055f862db8443aa6d0797f51f6521856eb6e3555cb36ac3",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-36",
+        "sha256": "b9fc2239c6eb888625f9590cc5767082e13ac9f99a513132cec3b18ebe315f56",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-37",
+        "sha256": "4da5a7ea784f8c6dd7bb7c623d6e75a225adf63b4772af25f65567962d27b0d4",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-38",
+        "sha256": "240ac1420faef7654a43e0c167a78c9120f8666b95173f5f5d0098da48105dc0",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-39",
+        "sha256": "eeca6bdf5eb4eb0599ba55820c95032886f97f0fa6114a9c876e4b140c4e290f",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-40",
+        "sha256": "9f7057b4676b5583ea38e321eeda7a7ccc7c25bb34169d07d51d422c7ec8e2db",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-41",
+        "sha256": "69f8288b409150df0a9de1237db67955f5b88dcc6bc3a906211789df86e306ce",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-42",
+        "sha256": "a353df04b87926c7d6d7b0dced9c1c8ea2b8ed6198477e96abab0cd968d71b1b",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-43",
+        "sha256": "d5dadfad88fb7383f9f31895579071179e23687de7179a7ecd2f88a0e40219a8",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-44",
+        "sha256": "36e26290ffdc487c672d4c63a554e7f7b7dad0fbe3743a6b76697d7fd52f6dc7",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-45",
+        "sha256": "288a3dfeffedf427a84d75a7afef638dbff474d382506e8de8c1d9c09a2afd3d",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-46",
+        "sha256": "244dcd310f4f33556f1a167a4b1af262ed5bb509d54925a547368e538320e67d",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-47",
+        "sha256": "a9e716a840f16125bb57aa0d59d9cc4a74e912dcadc874d229ec731a94a4eeeb",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-48",
+        "sha256": "4abdfd3d1917cd047d397b2722aa78b95585ded6004b09e1ea279f8f512a8943",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-49",
+        "sha256": "3bb1a66430b3e163c5eb127d426378ed80aedc59487258db6011ba48242a1e81",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-50",
+        "sha256": "b185f8a272c83e8b5ca6f86bd8a77976ea66934b1b23dd9ab2e1e0f4bca604bf",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-51",
+        "sha256": "fad7b499a9935dda6d78042db44e97d7bc5ad9b03b76a23d8c31ef6d731318d8",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-52",
+        "sha256": "4527475587c9746f2fb398a31fef7c715064318e913da6f582f40c0eb15b165a",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-53",
+        "sha256": "fec02ca49d763c269a1c591f9b476d12c923ecf058f61a2770ac0c49962fd178",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-54",
+        "sha256": "4b8d3c3c6c10deb876af4453ceecbdc5c52478b300dc8fabb78820284aa16882",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-55",
+        "sha256": "d309edf9243881a9c1fdbfe0cd70f287dff0688a36119b9602459495158c401f",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-56",
+        "sha256": "39d82d98bba753e1fcc9f6ac527f0d6757e0703168ce739312dcf10da1816343",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-57",
+        "sha256": "af2542aaf2cec4007e78c71e316d3888c1c22197b79d3ba9614cc77130e99f8f",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-58",
+        "sha256": "0050cc7876e55913975022bd87359b35a0963c56a5a3fdd8d0042504ee607759",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-59",
+        "sha256": "645b14550f0dead2b707beed770bbced9f4b7d9a523f0556d3030dad958ff5d4",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-60",
+        "sha256": "348140251ef5bf66bb2d1cbe6ac1e2a81ea58a93015bed90e3f376bd9ee1ff26",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-61",
+        "sha256": "438b85b72995745bb43fc97cb9c1ca613e7964ea44bbaa0ccdf7528b67d8be1a",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-62",
+        "sha256": "b745dc0604483664f4e4e94a05c442bd60e191e9f67d80dc84f614e75f64b2dd",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-63",
+        "sha256": "67576d002fef41279228c4453422c714ace41525a9bdb63d7e149b706a816e89",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-64",
+        "sha256": "2afe1cd2b43b2417ed1a07e6b655894328c6efad1e97bf439ddd0792423e9b0c",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-65",
+        "sha256": "6bf90938b95bd836b2d9982bdf703a2a5da4f2d93818ca7d4f1bc711cf177b90",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-66",
+        "sha256": "73d8c52a89607f1f41ffa36dea4f1c04a728462b99d166b750a16f1aadcca380",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-67",
+        "sha256": "9f69978661a5c493870a6e15e5c8a1073e3b24652fbe227b91bcf7fbe429ecab",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-68",
+        "sha256": "7d81fec0c0ad5cfba6fb865590215db3f3820a9972b6cfecdc826f38bc46e120",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-69",
+        "sha256": "fb80856fbb14e1045c1a004c7ec3ab4d7b1f937732ef2cf62206f0a92afe9ff0",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-70",
+        "sha256": "727d42f9caba144c209417c28838b2b24dc5f4f075ac227bf48c2c03f8b9769c",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-71",
+        "sha256": "9022e3c16577eb947a9a8d9c8ac7e54ed42bdd3b848bf560cf7fca65f03dccee",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-72",
+        "sha256": "bc3418728d141792f0603247c60598bdd982ea0fa63874ddf704214e5f02807d",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-73",
+        "sha256": "41cbf566cb0439491e8760b01b6a9666cbda5bda1271eca56e8145ca871e9526",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-74",
+        "sha256": "1edc5f328c1371c5a1903e96e4a3acee26e809210f20877556b84a4b3ad1fdea",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-75",
+        "sha256": "dcc69519f7e09e4c1f340052ccbbcf388bbd0a45b31f970a4d24db6c0fa8d6bc",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-76",
+        "sha256": "86e435734ec105523cce7779f7e31ae67daf4cd5132fb92dabacbb6c09e9a294",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-77",
+        "sha256": "144b61a9b563034350200758ae643115f11ccb6b9986827c9b882703f16934dc",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-78",
+        "sha256": "c723974620dbf27970de92bd3184ae1b4e19c3cd8aa6030cb1e1f396fea9ae82",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-79",
+        "sha256": "998874eaed8ddd6d96cb9b6cd0f0554d40454b7c348407ea5f4f1b3605ddb267",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-80",
+        "sha256": "4ab9fb541f3f6c30e188f7844c3451e9eaa7ff3444139497c0a4aa2f030360d8",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-81",
+        "sha256": "8d83ab85999515ac1a77cab9caad4375151f81f06a86b7fb996630cd73d06808",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-82",
+        "sha256": "8bf812f301c3e46e1ad6c6f43f957b9d2d3f06fda0e50c5475e9efd69f4d0fa9",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-83",
+        "sha256": "944896031f0e373c0f94ac68b6816201c425bf9bc7db10435211708ab8ac018c",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-84",
+        "sha256": "be2c40a373bff63c67253821a53a4721551b3252b49dc25120af9b4aa9b363e2",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-85",
+        "sha256": "2c73419c6d568b1e4220115a24e396482e07ed111a0973dd3fbd31ff77b0b52a",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-86",
+        "sha256": "d07c4fcb537efb5af628550f668d9b86156a58602c3a84537a4b1c8eef56b642",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-87",
+        "sha256": "22971b5f73ffc4edf5e1110cf1cc34f58f2f52615bd4c5d8d1bbd31db043be5b",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-88",
+        "sha256": "72b5c82fea785433248c081510fb71fa0f3fe50d6c2f9075142acca8e4349b7c",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-89",
+        "sha256": "bf18d1ffdde86090079efa505f6618b7bf74f0896a95c740ca96fbbb38ed12b8",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-90",
+        "sha256": "965c3777eae05d5b2db30c4ca8f0dfb2a6f269d82fc5f5f96cec0268550f7533",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-91",
+        "sha256": "24a437417442610c527652c6061f7d17b1364f01f785f19dd58ee9c0f11f2538",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-92",
+        "sha256": "1df1518943bb0a9e800fa41f9ef5ec4869f4d74fa806e1cd5237326fcb5a64a0",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-93",
+        "sha256": "02e457941f8b4c865f3e8b3bbd5aeeda9f655c652170ddb514c465b54504aefe",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-94",
+        "sha256": "936e0b8c6301c7d88525df61dd041f70d96231c05d425838fffb499d9459bf9d",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-95",
+        "sha256": "b2b05ba759b994a10475bb2ea694375fd5e35271acba9c46949b5344fb8402a6",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-96",
+        "sha256": "a6a15792a6975204e4cb2459bef4955ffea52000ceeb5af22fbff7c4d746c3bb",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-97",
+        "sha256": "b61e44b6a21d584aa9c02c6a48f9b659833d0963248de3ee10210499e9e15324",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-98",
+        "sha256": "7ce1504cbdb83e1d684b9d56f7925168296d49f5fb7b60689fe09e914c910920",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-99",
+        "sha256": "04fd3129447cde312bd6aa4dc8437b01c23e867a77194a81565d19aa1d54d428",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "jailbreakbench-100",
+        "sha256": "3991f39ca9af3d986535589a65e8accb91871742eb3e97f47fa3e965cbe675a4",
+        "source": "jailbreakbench",
+        "unsafe_label": true
+      },
+      {
+        "id": "C-0000",
+        "sha256": "9a66afabcbef7d2e03734b7a312a01b717e31c4c4ba26645ada1a386936b6936",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0001",
+        "sha256": "aa4d26201cace78b701d4bced629b19f258c702f19378c9c700146fbf31cc49e",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0002",
+        "sha256": "0b31d43f792dba132e1ca76b15f09cb44c9508289d3d2a0bf2b3ba1470e69af9",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0003",
+        "sha256": "c4bcbdb7ce5adb9b6cb41035ca2ff1e9d820d74198660759b099ae7f33d582b8",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0004",
+        "sha256": "66dce9277272309a35ed5ccea4d1adc6af420e6aaba281de9c5db863d8de0101",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0005",
+        "sha256": "39ca954675149c2ac17a7f47de2c510997e2dfaa403d0433e14a4d088cfafa51",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0006",
+        "sha256": "1239a2fedf4c596541b518bd2b37f8ba648e881021ce0bdf78d4ef4ca99884f5",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0007",
+        "sha256": "bde1bd878af855a2e1963417e9ba6394d0b9773cc04f1980e71fcbcb579c7a57",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0008",
+        "sha256": "fe0909f076d593a124446bcc268d971b43afddb2ad42179f371a065d8992154f",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0009",
+        "sha256": "b832c04073f2aab1ed833500a952eeeabbdb7a9422f32a20e88dc3cb82656359",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0010",
+        "sha256": "24e19367900bda9bd5cd5235aab57d508554a6671f5a72a36fc06c9c338ccecb",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0011",
+        "sha256": "0aef46126fe7050ac67a6ff34bc57a604ee709a30e879e59ec006791662af890",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0012",
+        "sha256": "e288840d46a30ed79a0510e47eb7ecbc9036850c20dd68dd86ac3a574293c844",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0013",
+        "sha256": "26b20207657b4e85c9bca25153fa2a18504691f57d5a40e389e80206c2c7d356",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0014",
+        "sha256": "83d8d45f267fec5962873cf5fe9e3cd1df5ffaa78d48847944944bc3f86198a2",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0015",
+        "sha256": "f888520f274caf3c09d6de039e61d41afa7d9ea89f49d11ea37e72c3e6d38304",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0016",
+        "sha256": "95159688cc560fc30aee2a5c986a61ce8ccf4019f23fccf3dc76ec0cadb6acbf",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0017",
+        "sha256": "adda979a17f510959bb3ed11123df0eb41c778be5293478f40f0bc41ad5c9173",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0018",
+        "sha256": "e0fbff8eb4108fc4aa00f2f772af16b781aa271e9a33483e168b0c25e0c7c321",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0019",
+        "sha256": "2884b32de24ba68723b69587f8f44b2df15e89a8183fb2b05b6559c0f0c9337d",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0020",
+        "sha256": "1aa086fabe5f0f053f08a8e056dfe5a333a2ce16fb2b3bed39d814ae3e8ffb66",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0021",
+        "sha256": "f35c7c3f207c0c14c218fe42c0eab6eda69fd2080335705e2cc94f81cbb888b3",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0022",
+        "sha256": "ff615f2a5107521288c626d5a8c7f02305f2d6e7111e3d80dae86a9f2422fb63",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0023",
+        "sha256": "02d63e691599f2773e993512d49dea134f33b1f23e4abce30955fd26ca3a6d20",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0024",
+        "sha256": "98b4db6c9b948a4652ee9e897250db45acfcccdafadfad584d1f72b2c0cb7a5d",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0025",
+        "sha256": "418d07d660e34035e63e57fc7a0d40f77b35446c8a3c546213a9b612219f8b57",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0026",
+        "sha256": "2aa760f85132f2d57b9f46511299940ccd1303971bae137290b1cd0869be9f9b",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0027",
+        "sha256": "a7a226bbfee5bd2b2eeb7bdcecbece4bd632d9b36d00ba94042afd27a94ec47a",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0028",
+        "sha256": "92b2249ce2848d59c7c356f2324587b635e8fc854cbd96660493abee408d7a1a",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0029",
+        "sha256": "078982c065e7d584df1b765ce2f1d7a283724ef8f816dd4ae20518f48e146641",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0030",
+        "sha256": "bc159d37bca8d59daefd4bb1195b2da1db031aded525e68d66aa5ca6b809af91",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0031",
+        "sha256": "3045f0046754ac563b2d640a21feb532422653cf338a890a0fdeb39c34a99ae2",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0032",
+        "sha256": "907a0161320b8509040a6833027948627c2bb1baa18434dd4981fdd8b2ee1b35",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0033",
+        "sha256": "ff5dfc7fd21d445a9bc493e777137cf579dd69d7692b9cc416e4f787476bf19e",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0034",
+        "sha256": "d6f8ccd0e221e51bd2e2f9b29f9c77163ee1499a262e23f02583dd98446fded0",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0035",
+        "sha256": "c29a81e394b3c2eafbc4c7ab2fcf345a3a6bcaa6ed39526281e6f79f483ef230",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0036",
+        "sha256": "a532309d9ca8b39c4ac22a0f7f732c95d6329e7f15e1e8d3c2f31bd6101a8e35",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0037",
+        "sha256": "8294f0b95c07daf6a7e5e864b8e76268e012fe230d805298cb0ae73fe3934533",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0038",
+        "sha256": "1497799222f29951343b749dd019279dfe30c29d557d67df1a1eb9b710d781e5",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0039",
+        "sha256": "46826e0ecdb498e857f976781c559be69a26fa9396c53cd26df2c7ddd832c746",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0040",
+        "sha256": "33e661a9e5a24e5f28ad634751c8e59687cee4d6f05ba31e00bd6af745f22b4a",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0041",
+        "sha256": "e2aa9111171470e7171b426bcd7bb233c7cdf93475001c7e52ef63ee19307b72",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0042",
+        "sha256": "ab0c34b7600177ea49aa5af81e6b3369707274b77f4fe4503e2ca8ac03cb4918",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0043",
+        "sha256": "e95fee8110989ff4ac976bfdb308ac255186fb5329fcab894cfeb8bd1509689e",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0044",
+        "sha256": "b97ad985956c426d46686d26351e40809fd0939245896c99f3bf1429e76c08fb",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0045",
+        "sha256": "6b137a31dff608c5a8db9fa59b57823063baf27ad11998633cd8ce719ab91d17",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0046",
+        "sha256": "2896b7c01001a33dce3c0c9d1e3824a505929086f49abc7df29ea08e78368cbf",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0047",
+        "sha256": "8ccf15fdac667c7caef297e62c09d134d6c1127168c7018e2452bb9955d60f73",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0048",
+        "sha256": "8408cbbd89dbc462fce33fc42fd45432583c4ecd96e04ff304c3c71b8aaf32cc",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0049",
+        "sha256": "15a37c2207eb0f32cafc6853e636f875b540f2c8c8553d5bf3f86fc868b345fc",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0050",
+        "sha256": "e43b3b0384b868d9477ce8f5ef9e2a6e726c0f663c8de40208fdb85455e1b4f6",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0051",
+        "sha256": "e1125d13c657139721649158bc9fd00320165ca4d2dad2bde2b29bbe7e840c4f",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0052",
+        "sha256": "dfa3cab476b0f61f5aef525ad9b30ad2fa900633b1184c8c81c2a2875774bb30",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0053",
+        "sha256": "6ad99744a3937b02743991a29c6a38ca3d445de05185d4612cb501eecaa78e37",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0054",
+        "sha256": "b478b9a6b64db9659e11d4493c3347dd364aa7d4554bb75016edfca0c78f64db",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0055",
+        "sha256": "9accad0be8bc6c0623008900dae39211f36bc4ad6fa789e0874f258bfe865a47",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0056",
+        "sha256": "98c2d2d8db4002bea404910793135f41e89fbd620f14a89b270a89275cf7b4d7",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0057",
+        "sha256": "4e5b1b5d47719a894e66b1002416b5d43ebf54edfb52b5d7b00b0abaffab2405",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0058",
+        "sha256": "976da903fb05025f043bbd79e445d769aaa669677337037205b3c03e6a0eedc7",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0059",
+        "sha256": "b76c0c47acd14e68b3e36708d11e8efc3f104a0db538278a472de89465b17017",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0060",
+        "sha256": "097c7a47b81efc05f808c4ad3cc3c346ba58ef689fa448421347139952cb0a04",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0061",
+        "sha256": "ae70e086e88849fc1d5d4a2d9f624142f8fb581047adb8dd9a369ab73ee88e31",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0062",
+        "sha256": "032b470b8721f919424e3024ba9fed904a17aaf85430a5c8d335421388641f43",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0063",
+        "sha256": "b598512be1b0f0550c78cfbce1b513beb6b4f9a945e549b3de5702ca3d3cd0f1",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0064",
+        "sha256": "fc3f7f185cc7c4307ced564b4681a30cddabc4dbe84d34ccd8b9bd80e2033ceb",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0065",
+        "sha256": "bf04f895a6c4c906a17e3936ac5fd092d37246f8b55f0558f89617fea7324161",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0066",
+        "sha256": "32bf733c5df4ac2dc7418965df3f14acb2b3391b8203c8556f6644984bf1efea",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0067",
+        "sha256": "ce5a3746528ce51f051eab55dc25b5c29d148d4abba8c6a4e9b2d3a6fd9fc96c",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0068",
+        "sha256": "1733cfb7cd94d09861284fadfb5b6d776ad46fe7e46b3a11f1732b700ceb0356",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0069",
+        "sha256": "ddf0c668a78645294e778ec6fc961b65c4b7684ae379bd473f2e8d0f54c3289c",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0070",
+        "sha256": "92c0ca1f76b38c273b483a0bf3ce7eeb8818bd1a56d963144d2dc7df16f22784",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0071",
+        "sha256": "571b396e3dd95b83e8ec69d8c9f390092591aed630d89a211ec165d04d7f27d6",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0072",
+        "sha256": "a59240482ad9c6d63caac012dbd5f0cce325c19689dcc566be9edd1b3234d1ae",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0073",
+        "sha256": "703161ec139b9e892efad7b539e24ac9210e74943ac99285e4fa86b9a07ad9aa",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0074",
+        "sha256": "5d7fd22d6606e10e04c4d8f37364edfe95e93c94b59d056b3d0e6d79e2c36e95",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0075",
+        "sha256": "6afc1701ead3d03c0da8ff2faca9d4ca47d8e71a7e30071b542f3c7e9d55d128",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0076",
+        "sha256": "1174afb5f6b94d6f137ab43ffb80a3fe29717564dbce1ea3e9432c5e6d7ed46d",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0077",
+        "sha256": "a170b67a4748e17a8b78bfaa6bafc1615b7c5bd117a2f50281b6c995a08c8a58",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0078",
+        "sha256": "2dc4b004a45d62dce139079ce8d1bb6e0a57141fee0369c3ee08a2b6ba57541f",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0079",
+        "sha256": "ab7090718d1164d02f3baf519b1df0d86242c29ed53ab7889f50f102e4190eaa",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0080",
+        "sha256": "41394fb87441a003686173776b988f05429154f08e542166c798363fac6d2ca6",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0081",
+        "sha256": "2ea65acf690e84f405c79ad0d522c5924546436fc0288dc1a3abc5901dc0db9a",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0082",
+        "sha256": "6955aa723f9c87e2c26d692f9b7456d05c6b04448b530eb0fa1f1a4c6683228c",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0083",
+        "sha256": "d8a9a13499781796f8422c10f4152c57b3073578f8cd86cbdfb543fefd0cc602",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0084",
+        "sha256": "52ba152b3cc2bbca3f162d1c315f1684382e7b94cad3b713ec78af5e813e0ef1",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0085",
+        "sha256": "224f07a090c9b01d326bbc1343a1d69d3920edd901b4951e8cb299ad38254aa4",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0086",
+        "sha256": "8cf2be7d07e0f7655193561a0db60a5c1ff690710c879690d2af3459b6edea65",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0087",
+        "sha256": "aa640d53775cc0033157196d1c9178aeeef3ad00b78d0655c04184aa95670acf",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0088",
+        "sha256": "d3f6edad37293a0d9ef9f2f819fd237f46891a1903fd3a19c614f569d7dbfa97",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0089",
+        "sha256": "d76e2a1fdd2b800388ec02d0682d1096e80dbe961f17fa46363b6b14a924fb92",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0090",
+        "sha256": "6401649dcf49061faf4019c6e179e041866123dc53fd14caa3b76e19876ad175",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0091",
+        "sha256": "027f6cf68f617498f4f4f603586c4f7be008b165d37aa07f35ea758d7f5ea139",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0092",
+        "sha256": "94f4039285b767a8a91e9417e0ae45120e06eb16833c7e7192d68f0efedca3f8",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0093",
+        "sha256": "e2a8795af8a875959e680bcf29acefbe386e42b9d46981d3c3c7d966f183aeb4",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0094",
+        "sha256": "10771bf471233960af909ff16156a6d65bf65bc986e0477c63176af305543f57",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0095",
+        "sha256": "a5f20fe9b3ab36e7c4c018b6148636e981cc6aa7e920532f3a39fe48a46f44a2",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0096",
+        "sha256": "75b01ae01c1abf6acbfc63037ff74400f5905de2c0bc2e7db197a5be82b2e50f",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0097",
+        "sha256": "660ae3a16b17a6546bbac425acd40573f5d0ef73360cfe7a619526e2d13cf09a",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0098",
+        "sha256": "92606d045d26d1a42938930eee4f96072a102bcfc44a9fa35f7df4ff7cab8ef6",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      },
+      {
+        "id": "C-0099",
+        "sha256": "1a88c6c5a069058842b9ac43866bb02b8346096ba260207759dd27635a657fa2",
+        "source": "refusalscope-capability",
+        "unsafe_label": false
+      }
+    ],
+    "n": 200,
+    "n_unsafe": 100
+  },
+  "ood": {
+    "items": [
+      {
+        "id": "authored-100-1",
+        "sha256": "c8738a55926b720599c6cd93a8b3e439ff313e755976a5802a3acc01b0943ac6",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-2",
+        "sha256": "f157b365828ce1a36b8154ab4c9e6f9194372ab690293e48616325b8bd149794",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-3",
+        "sha256": "a49ebb15ec8c2057aacce942b440de8129533154f2e1b1d21f14146996289043",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-4",
+        "sha256": "43135b8ebd0255e993107f4a09ceaac6f7ae85d23388c72e02c682b18e78b334",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-5",
+        "sha256": "47023adf5aa12c4c6e5a8b55696cb92ccd307f458a46167822f18e420e9fff62",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-6",
+        "sha256": "314ebbb4fe4e0e2af1c26d9f2a2d0e524c8e027c97370dfe650d3e17d7ac0908",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-7",
+        "sha256": "929e6ea815213030d29a59f8b5c94b7149fccd04995aa4e7cd13bfd3fdde0381",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-8",
+        "sha256": "bc6df12b0aca931872f957eb4932c86f5e8ff28a5cc8467191f89d5319510078",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-9",
+        "sha256": "deb9072450f5fce88e45cf7e6bf9d137ec31392024b0f6c6e6f85b44de86d420",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-10",
+        "sha256": "515cdb0fd0c10660498ee3157d6f5bfe0b8734d973c450b0265bdb51d6480e9f",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-11",
+        "sha256": "f327ef8224ab6f9ed552bd0b908bc0825f185f322b4c972c46da934ac2acb402",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-12",
+        "sha256": "89f775d99710568116211f43128b9d46ec2e4a2287da372a429c0a51367100f5",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-13",
+        "sha256": "8fec5ac08a9a464d69d0ae76e1344c29ec6530f6a1c444cc2b8e23b1726a54ff",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-14",
+        "sha256": "a36df1854999c81ea7398c6377deb031517753cd3819413568badea8cd1bbc26",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-15",
+        "sha256": "078419eb331342ea89bdcd09d9d0f23848ba4f0b2b6bb7abb42c0f0ccc1217f6",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-16",
+        "sha256": "c5baa3bd2fbebfda3c81eb3ed9dcffe8dcb2d9993bc879ba743367f99f4f0323",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-17",
+        "sha256": "ef474e48da14a1b15a6758516312c9913cb2b4d7d7649e093fdf46e81e47354a",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-18",
+        "sha256": "732d5d9956bd4100ddf77c305c35bd61f9aaf385781ac7636df6ceb0f01c8026",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-19",
+        "sha256": "f6ce78a748bbf33345612da40d27a8a8b5c38ff3d4354a429909132499178dc3",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-20",
+        "sha256": "d45ce38fa5c7414383a33e92c5393907dfd9b0ec76c0349fe1af7e883f50ba81",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-21",
+        "sha256": "80aed6948084cb554f3f9318e57715781cd25fee54090bbae9f89372784efff4",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-22",
+        "sha256": "de6b307eb12b1530f2324327e739794ac6b5b2f49559fe561d2415fdf01418ab",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-23",
+        "sha256": "bf8929b8fa5d11d3619aca94651dd943071389ee793307e9a416d9e5acda8b4e",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-24",
+        "sha256": "a41e0f6726f9513d168bfc580f8ac01a8bf44e6d9fd36268662e1749cb015e5f",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-25",
+        "sha256": "81b1f8972f56f81df37d004957606e87c550d9ae92aca28635bd60ab287dcc07",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-26",
+        "sha256": "6287cce8f3cdc4b1e7298f48fc6ef6f707b3eb4ad34205798b9c02f406ceec26",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-27",
+        "sha256": "cf786ba9f9030c3ac431d09be483847b190f7097527f00ede327d4d66795192b",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-28",
+        "sha256": "7a9e6024b65c5301debe01671521806472549c94fb9640d63a65a27a8032b299",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-29",
+        "sha256": "573864e562877f019ca0803c96cbb4f7c6c0a24a9d540a75b6a41504fab22eee",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-30",
+        "sha256": "1b26a93c9369f76cb8cbc2dd9ec7c8fa3bed939d388286c00fa4afc4a9f8e7b5",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-31",
+        "sha256": "f0242cb2cf6d46ac12c8eeb9366f5ecfbe43e7e59c974e3b1c8cceccb6099c01",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-32",
+        "sha256": "9ef9fab2c90c06b7b0e873e9e0e2f49283ce1a353b0e344e4d86fc61995c3725",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-33",
+        "sha256": "76dfac7e87c6cac648147ee510fc9ef158d098c723c68b07150f2d49876f4130",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-34",
+        "sha256": "6814b6ffae540c60ca4a6eb2dcb7bdeeec4fd18ed525f584ac53fa36e49480ba",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-35",
+        "sha256": "70d7a042978644ebdef107ae482d1467ff7753ff2bb075ba34bf0101bfff8a4d",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-36",
+        "sha256": "e93997ebeeeda20fe532d5d593d025d17677d03eb8172c85ee47207f5b13b7be",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-37",
+        "sha256": "39c8a75dbaa36d7724eb18654eeee2d422ad6c7a6658d34f15383cf4924a23cf",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-38",
+        "sha256": "9a0529c2c10249a948008d1a9fe137ab0c8c8e0de21d498b08b98e1ced41823d",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-39",
+        "sha256": "b8c59d9f7609492d09586dcc43a246668b59cb2bd8926ba8f3ef4b53c394c43a",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-40",
+        "sha256": "93e6a37fdabddc533803503582dc43b5c16b749535dfe7a3d3f291359a3bfa1a",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-41",
+        "sha256": "afca696bf71647941ac757d2a7d7f233cafd12f1397b2ea9a73fd1d6b377f294",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-42",
+        "sha256": "8a6986ad2941161eea7abcdaa5d6ba79f4f22a4066d394fdd33780fe8b9d4c9a",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-43",
+        "sha256": "91a5ba0078b04a759ab0058ac3bb0108a2fe417aada5680910c8c99b95aa9481",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-44",
+        "sha256": "658e882617d0149657369cf8855f5874abeb900f76f1d16df67d1fe236808795",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-45",
+        "sha256": "2933e2cf96b2a926a2cc4ab8a555329550c8c2edac0567ebf5b396efad1a4743",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-46",
+        "sha256": "3cd4bada679a973933b1bda5e61ea6a2dce5928676c8d7c4fe2fe698fb7060a7",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-47",
+        "sha256": "db9092bd67596a3402bf9a3d439be925172533295192a887c8f2defa0d483196",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-48",
+        "sha256": "aae68fcacbd4d78b2987fcea88e429bb6a376f5ba48cb820064fe93c2dde20e0",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-49",
+        "sha256": "947443b5b210a5b4aa432b7f1a2acde19fff89f242e7532700d5f668307d8e0c",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-50",
+        "sha256": "99dc333be5a8d7c677f53c197b880531f52ac799ab4e17aedc9e87413522af49",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-51",
+        "sha256": "64a354726094ee11bbf6dc09f669524fd38cfbd3a9a14a9ceeaaf99a4cac9bcf",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-52",
+        "sha256": "25fc422889e33d1e0f2ec0c5c4fac4b0890ba0f05030f7fc0711cebc7446bfd1",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-53",
+        "sha256": "724c72264a7ecaf3e76ab64f56896678679aec9357ec6455241d5637374e1042",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-54",
+        "sha256": "1cf7ad04c1f049eaf20dd48b75ebec9426cb3b1fb08d4f07ddc7097807e0f91c",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-55",
+        "sha256": "a1adbd9ae9b1dc009839fdefd1a7d8977fcb98722478cd8e384eb481c7d89eda",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-56",
+        "sha256": "bfd652c4b2919a36d5821bbdeeb8eb40de38c1ba0ce604dbccc16ecd5f672f9e",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-57",
+        "sha256": "fc83ed59c7164e758dfe306f7838dbe5da209bca2a222f34f6b8f75e030df94b",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-58",
+        "sha256": "172128d3f6315fa9f0b860b5737e85a464b851191ab1830a261b6e0bb8ec5508",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-59",
+        "sha256": "94c4de865b9fab845be885eb54e44e4ce3b28406cf78d8a7a1d7c838140770c8",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-60",
+        "sha256": "ccd4804ac9127c667ff5845982475d2e2546f036bc43e6e900438754d0fed657",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-61",
+        "sha256": "f8c7508cf82514b70a1f5dfd3ab2b32aa04c0b3e8cd51a0577bf4616dbc298b7",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-62",
+        "sha256": "a16374ac77f7f12508d6c2d3e83b18bb9e1f8fafeff49956e3bfaba4319a1f2e",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-63",
+        "sha256": "2366d49c07235ea35ad6858f70676544d289570f9e7b689a7df960f42a867201",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-64",
+        "sha256": "b079534c624aab4876b40d9603b060012200af0a4c1fb6ca4d6cd40ed6c22209",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-65",
+        "sha256": "deede6835dd1472e4d3321a20da8c2a0936f21249395121fd1fa08bc5552a3ec",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-66",
+        "sha256": "9e1c6c50655139b43cb2b6abc34141b700b8ad33650ac9c053b1bb00f2cda927",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-67",
+        "sha256": "e867f166dd94f0a7de987dd92548e14404aa21b86d784cf481945f2240cbd2b8",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-68",
+        "sha256": "df5ace6e06a47479a4be68b12f7a3803205647591f11b4de13a6e0b5368b8145",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-69",
+        "sha256": "7d564a7994410c3405bbc2064c01f18bef813b96a8bce0b00f8bdbe6af91c8ad",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-70",
+        "sha256": "3e18bf1237338cf8bd5642f1cf5ca32c14b673bef07c3b9c000a3bc31940552a",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-71",
+        "sha256": "214a5c465d8ce9b8c9b5c9b16ad547cf760cfd617d8b15582a10c0fd23fcc127",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-72",
+        "sha256": "d5c7ccf85de57061f86e5a0fec2e2d37a958115c8b1c21f11438862b95cf59d2",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-73",
+        "sha256": "4cfff3f41b50d74cdba836c2335ae7a58f3fe8f747418fdcbf2c28eb27116393",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-74",
+        "sha256": "ca871e4c2781307c42bf0b9f7a089b4dc2452c04dc0416cb39aa141cd506c3d4",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-75",
+        "sha256": "324f8725d780827f558045157284fc7c631699d90a0e9dc4d1843019c9ab5df9",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-76",
+        "sha256": "b979205833ba3c900bde780fd64aa0e5f2817693307bd5b12212639f21fcacf0",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-77",
+        "sha256": "d3d55dd62c56e9b7f040f48ac257921bb09520c151a03b8e4a057b749d206b44",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-78",
+        "sha256": "6673b967d92c2e3f9d7ce9c98f0ab87e3c556a9b6c5158fcfd69cc8ead455db7",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-79",
+        "sha256": "e3f258a7e4bafb88d28805040361f36f08008c1d41caebe2962129e5cf241793",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-80",
+        "sha256": "7c0a40f42b78034a20a5c8d9d9e63b2edd599b1b1ca036152451d5c734d9b5c4",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-81",
+        "sha256": "312fa4b930a783c2ceb7620ee6def4173000a6371dcaeb0c2de024b1eca712f5",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-82",
+        "sha256": "ef4fbb89fc0de07ba4dacd0b8b917b5341913d79778e60fc8d87c828b7b152f1",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-83",
+        "sha256": "ebc3957ff9adb5d0283a45af7172762dc61214666571059d682283c55b6d82d6",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-84",
+        "sha256": "884f11d19982e328fef948677cd5bcf619e09136b3f6ff868001519b942abcf7",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-85",
+        "sha256": "4e8b71edb4fb7cbd9ac93cad4ff2af8acdb0e78a68389bea05852bb5f138ff4c",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-86",
+        "sha256": "2ee279153d8d5b2c06a08760f8006160515fdd3a6273d5743300cf59a263172e",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-87",
+        "sha256": "cfd6469394c769d825141b9beeac8ea50d1dec6bc3379b704d4cffa7f5c4d568",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-88",
+        "sha256": "6364aa05b07ba0341fd1dc81e33c9370c2d1ca5ed36beb63788a23f6e6612c48",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-89",
+        "sha256": "bbe906629991a634ce3314ad2a384e41611fa3f03513144d8ca96badfcf1610c",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-90",
+        "sha256": "28c2b7fc03b53b27d1a6c865246a3156f532506fb5d839cf8642c0668784d436",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-91",
+        "sha256": "4a2a9e0c93e9fd584842fd749914ba8d9f688208f06b4949db55baec53ce970e",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-92",
+        "sha256": "12368e4353799a9d5344f30ce49b30cb8d4f8f7eb28fc107a1fbdbf269730d0a",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-93",
+        "sha256": "6ce4006a82b17c5f0117119ffbd5e35486fdfd2e69c2cda7df0b93d2a518356c",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-94",
+        "sha256": "2393610156221c91aff54ab7d13186993fa62dc9c18a96eca69c0dc05f7984e2",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-95",
+        "sha256": "c03a6074fb30dca97001b577df00badb64103dfd4cb8a243a756f6b6cc1442ff",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-96",
+        "sha256": "fca9b0f0c79d5665bc736ccdf07aee8ac53df29c67b27e8f45f12dd32d9f3468",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-97",
+        "sha256": "d8122090b8cd8f10a948764b5c37b66989049ccbee8ddecb9f1f163e485a1408",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-98",
+        "sha256": "c8321893896bc4e8c28f3aa656832dd38245fdd3f20b5e1e644ad18c59057331",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-99",
+        "sha256": "656af611dee38630284a185c58c294dda42e3a0d236cd6c5aa11e09b84391b77",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "authored-100-100",
+        "sha256": "45c498e1a0c288ce11e60c8199bd5f4acf3c1b4fa8e8b45488b767d9f1b9a5a1",
+        "source": "authored-100",
+        "unsafe_label": true
+      },
+      {
+        "id": "N-0000",
+        "sha256": "763634b2bf8d37e85924bb2a495ffc3f0f5b34939d048bd09b13ab59290d141d",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0001",
+        "sha256": "f735bd7094182f76f8509d7e17cd2bc45320ca5f1acdaceaf2b8389138772a27",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0002",
+        "sha256": "8b2e6024b8297a4f264f0b271ea14f673f1cc520dac1e7feeb2beaa1ca332a96",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0003",
+        "sha256": "f9d48979f15b0950f8041d601c5a7daf96dad140f3813946035a79d270ba7182",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0004",
+        "sha256": "a758503ddbded53712b38b42bca855b9b6517c79b20807fd4026c64e670c2269",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0005",
+        "sha256": "35333ecf2378f83cbe23b45b7c112e7c68b467cc7c5fe465b8010ffdb4ef4497",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0006",
+        "sha256": "76c40d384aa646832110d611b33abeb19d91d2827552ed9efd7fd111c3d80cf3",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0007",
+        "sha256": "f4206710149295f7a25a11711e5e75449cc57885e9e714fda58a12932410d3fb",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0008",
+        "sha256": "c014c8dccd5e49d6e3d768c4204e28d7199234843d3b619c30bded40cf947c4f",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0009",
+        "sha256": "9e1506763f202b74f21c6b8327a7728134c2e2c702ddf8c978601431bddb68dd",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0010",
+        "sha256": "155ecaa78b9275b853230ff0df454b29a8e95f3a1f0519db2f9baa6ba4a17ceb",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0011",
+        "sha256": "f38bab7f4243f1101daca3eeb5f2228c7855adc70e0c933f8240153804efbabe",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0012",
+        "sha256": "f26c1cfa5bfc0d35f216fcd504284def61973b3d8c8fe5dc2757e165b66eed9a",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0013",
+        "sha256": "211298fbe79bb8e2ead6d1203f0b7059d01f505c5079d34fb3e289ec90c43b42",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0014",
+        "sha256": "8a3545fcf346915a8ff98eabcf794ad0ba642f4d9fcafcb6ba2f6a15e6908bcf",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0015",
+        "sha256": "c8a5f31e7aa8e726a6e4819a91c252075a6101039b0ae42cd16bdf86cf345980",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0016",
+        "sha256": "8bb3efb47be4f97e80fd1643a073c12338b841006fc6dda716565f3a72e5d5b2",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0017",
+        "sha256": "e0cb99383121b9f0a27e8be4326843f6539f1dabc206b6d0ef75b253d93a48e6",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0018",
+        "sha256": "26b4bf767bd68c94e5bb0a15fc0273436ea0ce1bd9305e9959dfb47cdcca5aab",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0019",
+        "sha256": "4cd7e6e8c20f54011b88ca493be1ec7c9780b671b1c8298656af5b054361ef88",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0020",
+        "sha256": "51f44b9a80a7f7ce2a62680cfe13b643269cdbf6f48e2442608668294a20a7bf",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0021",
+        "sha256": "3260f364366bada293450fdae67d53c79fee718450db2080f1f8b176b4f3be26",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0022",
+        "sha256": "f188d4f1a81ec4495532a14232815d9d031e4904eb9ae15839900fdfb7dff82e",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0023",
+        "sha256": "19b5baf23aba99d1ef7635b964972a6f2035bdaff83677654237ad68f7e1ff00",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0024",
+        "sha256": "abcf698ed5d35aba89dfb5b205fafbaeeccb42771b199fe20c0cad3395e1aa76",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0025",
+        "sha256": "7decb02acba151cc5db61155a7a4b9eee19129a7e555766d810aa311d6ff7fef",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0026",
+        "sha256": "3440445d3bad68c16f50c98377340ccc6da94276a860229e84bf3a236831f746",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0027",
+        "sha256": "20d4c359dab70e90da3673a3b71c39f330bb362914e7422dea7e627e3ae0176b",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0028",
+        "sha256": "e4f7b1d2a982afe62cff980dce10db188ddbfb3b920ab1448662a3be28f1aba9",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0029",
+        "sha256": "c57db97abb783d91dfa10e6bc633aef071e202b0de1c74812a2b68120469538d",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0030",
+        "sha256": "07edaaa25e2e5299d8c7c76bb04cb0e19df8a25556567ad98b05aab0b8693088",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0031",
+        "sha256": "391b7f42b124d49f22ea6291b8814f09d8f6a1c032a145d2bb9595b404990a01",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0032",
+        "sha256": "726d25a10b0b609f691c7208cfbff18893dac8116bcca42a020571ebb42c8211",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0033",
+        "sha256": "3a015d219d6efe818b824837dcab63dc3eddd3e9f085ade59b6708a9be60313b",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0034",
+        "sha256": "2e8f5e12c4626ad8e9809aa0bf93e63fb541f722168a0a55fd49bc23466af462",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0035",
+        "sha256": "4214a13a3e1a3b74ce98fe7daebc0d6abdbf77e9fa85e66dadd22cbd4ed43c4a",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0036",
+        "sha256": "37e391922024d678feb8760437adaa22335be5ba7b877b3d529fd1625efdf5cf",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0037",
+        "sha256": "ca60b8718cbffa06fc50f2d797add723a8c72d015f7917258d67b01d649212f0",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0038",
+        "sha256": "2a015905ae6147c49ea6e907fd0f95aa298683b6f788df868a516c1ed5fa9927",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      },
+      {
+        "id": "N-0039",
+        "sha256": "c1c91dd62cc613211e2b828367e492d1a19cecee8a7957960c981eea99fde5aa",
+        "source": "refusalscope-borderline",
+        "unsafe_label": false
+      }
+    ],
+    "n": 140,
+    "n_unsafe": 100
+  },
+  "tool": "guardaudit 0.1.0"
+}

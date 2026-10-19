@@ -1,0 +1,8 @@
+{
+  "agreements": 40,
+  "fixture": "ood",
+  "fixture_sha256": "6df71c2be0b10b030dbe6d0d5c109cd3af2fdbb7b6e4baf1f728ed2eaeb4c44b",
+  "kappa": 1.0,
+  "n_rated": 40,
+  "passes_0_8": true
+}
