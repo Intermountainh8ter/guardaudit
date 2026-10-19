@@ -120,3 +120,20 @@ fixture item is a single user turn).
   manifest are reused, so the two classifiers are scored on the same texts.
 - **Not run.** Prompt Guard (Meta) is gated; without access it is listed as not run, not as
   failed.
+
+---
+
+## Amendment 3 (2026-10-19, before any per-policy score was computed): ShieldGemma per-policy protocol
+
+Amendment 2's single prompt carried all four principles at once; the model card evaluates one
+policy per request. This section adds the model card's protocol as a separate row, not a
+replacement: for each text, four prompt-only requests, one principle each (Dangerous Content,
+Harassment, Hate Speech, Sexually Explicit Information), each scored as P(Yes) renormalised over
+Yes/No exactly as in amendment 2; the text's score is the maximum of the four. One-sided and
+undecided counts are per request and reported. Same classifier file, server, fixtures, threshold
+(0.5), gates, bootstrap and kappa as amendments 1 and 2.
+
+- Prediction, registered now: recall rises against amendment 2's row on both fixtures (the
+  all-in-one prompt under-asks), and calibration does not pass (a maximum over four
+  probabilities is biased upward, so ECE stays above 0.05).
+- The amendment 2 row stands as the all-in-one result; this row is labelled "per-policy max".
