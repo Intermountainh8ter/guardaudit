@@ -14,6 +14,7 @@ use rand_pcg::Pcg64Mcg;
 pub mod fixture;
 pub mod http;
 pub mod llamaguard;
+pub mod shieldgemma;
 
 /// Brier score: mean squared error between predicted probability and
 /// binary label. Lower is better. 0.0 is perfect.

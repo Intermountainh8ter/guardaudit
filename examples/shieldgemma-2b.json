@@ -1,0 +1,8 @@
+{
+  "name": "ShieldGemma 2B Q8_0 (QuantFactory GGUF, llama.cpp, one slot, temperature 0)",
+  "url": "http://127.0.0.1:8131",
+  "model": "shieldgemma-2b",
+  "top_logprobs": 10,
+  "timeout_s": 120,
+  "model_sha256": "c8cb2eb6d18ce32e187a2f086b0fe5b039abad58635880ce758f42919a5d01ab"
+}

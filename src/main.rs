@@ -69,10 +69,13 @@ enum Cmd {
         #[arg(long)]
         out: PathBuf,
     },
-    /// Score both fixtures against a live Llama Guard endpoint and write the certification report.
+    /// Score both fixtures against a live classifier endpoint and write the certification report.
     CertifyLive {
         #[arg(long)]
         profile: PathBuf,
+        /// llamaguard (chat logprobs, safe/unsafe) | shieldgemma (raw prompt, Yes/No)
+        #[arg(long, default_value = "llamaguard")]
+        kind: String,
         #[arg(long)]
         id: PathBuf,
         #[arg(long)]
@@ -183,27 +186,32 @@ fn main() -> anyhow::Result<()> {
             std::fs::write(&out, serde_json::to_string_pretty(&report)?)?;
             println!("{report}");
         }
-        Cmd::CertifyLive { profile, id, ood, threshold, bootstrap, seed, ece_cutoff, recall_floor, out } => {
-            let profile: LlamaGuardProfile = serde_json::from_str(&std::fs::read_to_string(&profile)?)?;
+        Cmd::CertifyLive { profile, kind, id, ood, threshold, bootstrap, seed, ece_cutoff, recall_floor, out } => {
+            let profile_text = std::fs::read_to_string(&profile)?;
             let id_items = fixture::read_jsonl(&id)?;
             let ood_items = fixture::read_jsonl(&ood)?;
             let started = std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH)?.as_secs();
-            let (id_scores, id_stats) = guardaudit::llamaguard::score_examples(&profile, &fixture::as_labeled(&id_items))?;
+            let (profile, score): (serde_json::Value, Box<dyn Fn(&[guardaudit::http::LabeledExample]) -> anyhow::Result<(Vec<f64>, guardaudit::llamaguard::ScoreStats)>>) = match kind.as_str() {
+                "llamaguard" => { let p: LlamaGuardProfile = serde_json::from_str(&profile_text)?; (serde_json::to_value(&p)?, Box::new(move |ex| guardaudit::llamaguard::score_examples(&p, ex))) }
+                "shieldgemma" => { let p: guardaudit::shieldgemma::ShieldGemmaProfile = serde_json::from_str(&profile_text)?; (serde_json::to_value(&p)?, Box::new(move |ex| guardaudit::shieldgemma::score_examples(&p, ex))) }
+                other => anyhow::bail!("unknown classifier kind {other}"),
+            };
+            let (id_scores, id_stats) = score(&fixture::as_labeled(&id_items))?;
             eprintln!("id scored: {} examples, {} one-sided, {} undecided", id_stats.n, id_stats.one_sided, id_stats.undecided);
-            let (ood_scores, ood_stats) = guardaudit::llamaguard::score_examples(&profile, &fixture::as_labeled(&ood_items))?;
+            let (ood_scores, ood_stats) = score(&fixture::as_labeled(&ood_items))?;
             eprintln!("ood scored: {} examples, {} one-sided, {} undecided", ood_stats.n, ood_stats.one_sided, ood_stats.undecided);
             let id_labels: Vec<bool> = id_items.iter().map(|x| x.unsafe_label).collect();
             let ood_labels: Vec<bool> = ood_items.iter().map(|x| x.unsafe_label).collect();
             let id_audit = audit_fixture("in_distribution", &id_scores, &id_labels, threshold, bootstrap, seed);
             let ood_audit = audit_fixture("ood", &ood_scores, &ood_labels, threshold, bootstrap, seed);
-            let cert = certify(&profile.name, id_audit, ood_audit, ece_cutoff, recall_floor);
+            let cert = certify(profile["name"].as_str().unwrap_or("?"), id_audit, ood_audit, ece_cutoff, recall_floor);
             let per_example = |items: &[fixture::FixtureItem], scores: &[f64]| -> Vec<serde_json::Value> {
                 items.iter().zip(scores).map(|(it, s)| serde_json::json!({"sha256": fixture::sha256_hex(&it.text), "source": it.source, "id": it.id, "unsafe_label": it.unsafe_label, "score": s})).collect()
             };
             let result = serde_json::json!({
                 "tool": format!("guardaudit {}", env!("CARGO_PKG_VERSION")),
                 "unix_time": started,
-                "profile": profile,
+                "profile": profile, "kind": kind,
                 "threshold": threshold, "bootstrap": bootstrap, "seed": seed,
                 "certification": cert,
                 "score_stats": { "id": id_stats, "ood": ood_stats },

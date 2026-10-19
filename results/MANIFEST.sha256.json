@@ -1,12 +1,14 @@
 {
-  "n_files": 4,
+  "n_files": 6,
   "rustc": "rustc 1.98.1 (48a229cea 2026-09-01)",
   "sha256": {
+    "results/MANIFEST.sha256.json": "9c484e053d2a1b0c591d4c7de212df71367d0bc859ac5807cfcb2836726beb0e",
     "results/fixtures.manifest.json": "9b09c121bfd849bfd60c7be9859ed93e5d356215b3f73bab5ff3cc1907c065d8",
     "results/kappa-id.json": "d866974ab93fbff0755a7a6bf1a4f4712c090fbbfefa019aa45e4ab8c224a766",
     "results/kappa-ood.json": "c599740dd7d417a305991bf543ba74906a09709aeda2bd55dce6b74e9bc67e99",
-    "results/llama-guard-3-8b-q8.json": "521504f54d9ea24e8e18d0697b6b126fcdce8b0974e564289088179a55dc9c25"
+    "results/llama-guard-3-8b-q8.json": "521504f54d9ea24e8e18d0697b6b126fcdce8b0974e564289088179a55dc9c25",
+    "results/shieldgemma-2b-q8.json": "f8db0f850f7528e53f2bb44e5a4455053f3884e3f508f282806c393bf00a1a1c"
   },
   "tool": "bench-report 0.1.0",
-  "unix_time": 1792426245
+  "unix_time": 1792429806
 }
