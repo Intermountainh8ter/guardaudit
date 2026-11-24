@@ -1,0 +1,143 @@
+{
+  "floor": {
+    "id": {
+      "best_constant_f1": 0.6666666666666666,
+      "classifiers": [
+        {
+          "below_floor": false,
+          "ci95": [
+            0.9740932642487047,
+            1.0
+          ],
+          "classifier": "Llama-Guard-3-8B Q8_0 (llama.cpp, one slot, temperature 0)",
+          "f1": 0.98989898989899
+        },
+        {
+          "below_floor": true,
+          "ci95": [
+            0.5648854961832062,
+            0.7393939393939394
+          ],
+          "classifier": "ShieldGemma 2B Q8_0, per-policy max (QuantFactory GGUF, llama.cpp, one slot, temperature 0)",
+          "f1": 0.6577181208053692
+        },
+        {
+          "below_floor": true,
+          "ci95": [
+            0.36764705882352944,
+            0.5806451612903226
+          ],
+          "classifier": "ShieldGemma 2B Q8_0 (QuantFactory GGUF, llama.cpp, one slot, temperature 0)",
+          "f1": 0.4732824427480916
+        }
+      ],
+      "classifiers_audited": 3,
+      "classifiers_below_floor": 2,
+      "constant": {
+        "always_flag": {
+          "ci95": [
+            0.6013986013986014,
+            0.7261146496815286
+          ],
+          "f1": 0.6666666666666666
+        },
+        "never_flag": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "f1": 0.0
+        },
+        "seeded_random": {
+          "ci95": [
+            0.3905325443786982,
+            0.5729166666666666
+          ],
+          "f1": 0.48677248677248675
+        }
+      },
+      "n": 200,
+      "n_unsafe": 100
+    },
+    "ood": {
+      "best_constant_f1": 0.8333333333333334,
+      "classifiers": [
+        {
+          "below_floor": false,
+          "ci95": [
+            0.9411764705882353,
+            0.9901960784313726
+          ],
+          "classifier": "Llama-Guard-3-8B Q8_0 (llama.cpp, one slot, temperature 0)",
+          "f1": 0.9690721649484536
+        },
+        {
+          "below_floor": true,
+          "ci95": [
+            0.717948717948718,
+            0.8536585365853658
+          ],
+          "classifier": "ShieldGemma 2B Q8_0, per-policy max (QuantFactory GGUF, llama.cpp, one slot, temperature 0)",
+          "f1": 0.7878787878787878
+        },
+        {
+          "below_floor": true,
+          "ci95": [
+            0.5161290322580645,
+            0.7012987012987013
+          ],
+          "classifier": "ShieldGemma 2B Q8_0 (QuantFactory GGUF, llama.cpp, one slot, temperature 0)",
+          "f1": 0.6111111111111112
+        }
+      ],
+      "classifiers_audited": 3,
+      "classifiers_below_floor": 2,
+      "constant": {
+        "always_flag": {
+          "ci95": [
+            0.782608695652174,
+            0.88
+          ],
+          "f1": 0.8333333333333334
+        },
+        "never_flag": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "f1": 0.0
+        },
+        "seeded_random": {
+          "ci95": [
+            0.4713375796178344,
+            0.6549707602339181
+          ],
+          "f1": 0.5714285714285714
+        }
+      },
+      "n": 140,
+      "n_unsafe": 100
+    }
+  },
+  "provenance": {
+    "command": "guardaudit floor --results-dir results --seed 584 --bootstrap 2000 --out results/584-constant-floor.json",
+    "data_sources": [
+      {
+        "files": [
+          "llama-guard-3-8b-q8.json",
+          "shieldgemma-2b-q8-perpolicy.json",
+          "shieldgemma-2b-q8.json"
+        ],
+        "license": "MIT, this repository",
+        "url": "projects/ai/guardaudit/results (committed per-example scores and labels)"
+      }
+    ],
+    "hardware": "CPU only, no GPU",
+    "seeds": [
+      584
+    ],
+    "started_at": "2026-11-24T10:14:14Z",
+    "wall_s": 0.289748264
+  },
+  "threshold": 0.5
+}

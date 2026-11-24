@@ -100,6 +100,17 @@ enum Cmd {
         #[arg(long, default_value = "README.md")]
         readme: PathBuf,
     },
+    /// Score always-flag, never-flag and seeded-random responders on the committed per-example labels and count classifier rows below the best constant F1.
+    Floor {
+        #[arg(long, default_value = "results")]
+        results_dir: PathBuf,
+        #[arg(long, default_value_t = 584)]
+        seed: u64,
+        #[arg(long, default_value_t = 2000)]
+        bootstrap: usize,
+        #[arg(long)]
+        out: PathBuf,
+    },
     Version,
 }
 
@@ -258,7 +269,64 @@ fn main() -> anyhow::Result<()> {
             std::fs::write(&readme, format!("{}{}\n{}\n{}", &readme_text[..a], s, block, &readme_text[b..]))?;
             print!("{block}");
         }
+        Cmd::Floor { results_dir, seed, bootstrap, out } => {
+            let started = std::time::Instant::now();
+            let started_at = std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH)?.as_secs();
+            let mut files: Vec<PathBuf> = std::fs::read_dir(&results_dir)?.filter_map(|e| e.ok()).map(|e| e.path()).filter(|p| p.extension().map_or(false, |e| e == "json") && p.file_name().map_or(false, |f| { let f = f.to_string_lossy(); !f.contains("manifest") && !f.starts_with("kappa") && !f.contains("floor") })).collect();
+            files.sort();
+            let mut report = serde_json::Map::new();
+            let mut used = Vec::new();
+            for (key, fkey) in [("id", "id"), ("ood", "ood")] {
+                let mut rows: Vec<(String, Vec<f64>)> = Vec::new();
+                let mut labels: Option<Vec<bool>> = None;
+                let mut threshold = 0.5;
+                for f in &files {
+                    let v: serde_json::Value = serde_json::from_str(&std::fs::read_to_string(f)?)?;
+                    let Some(ex) = v["examples"][fkey].as_array() else { continue };
+                    let l: Vec<bool> = ex.iter().map(|e| e["unsafe_label"].as_bool().unwrap_or(false)).collect();
+                    match &labels {
+                        None => labels = Some(l),
+                        Some(prev) => anyhow::ensure!(*prev == l, "label mismatch in {}", f.display()),
+                    }
+                    threshold = v["threshold"].as_f64().unwrap_or(0.5);
+                    rows.push((v["certification"]["classifier"].as_str().unwrap_or("?").to_string(), ex.iter().map(|e| e["score"].as_f64().unwrap_or(f64::NAN)).collect()));
+                    let name = f.file_name().unwrap().to_string_lossy().to_string();
+                    if !used.contains(&name) { used.push(name); }
+                }
+                let labels = labels.ok_or_else(|| anyhow::anyhow!("no results with examples.{fkey}"))?;
+                report.insert(key.into(), guardaudit::floor::fixture_floor(&rows, &labels, threshold, bootstrap, seed));
+            }
+            let doc = serde_json::json!({
+                "floor": report,
+                "threshold": 0.5,
+                "provenance": {
+                    "started_at": chrono_like(started_at),
+                    "seeds": [seed],
+                    "command": format!("guardaudit floor --results-dir {} --seed {} --bootstrap {} --out {}", results_dir.display(), seed, bootstrap, out.display()),
+                    "hardware": "CPU only, no GPU",
+                    "wall_s": started.elapsed().as_secs_f64(),
+                    "data_sources": [{"url": "projects/ai/guardaudit/results (committed per-example scores and labels)", "license": "MIT, this repository", "files": used}],
+                },
+            });
+            std::fs::write(&out, serde_json::to_string_pretty(&doc)?)?;
+            println!("ood: {} of {} rows below the best constant F1", doc["floor"]["ood"]["classifiers_below_floor"], doc["floor"]["ood"]["classifiers_audited"]);
+        }
         Cmd::Version => println!("guardaudit {}", env!("CARGO_PKG_VERSION")),
     }
     Ok(())
+}
+
+/// UTC ISO-8601 from unix seconds (no extra dependency).
+fn chrono_like(secs: u64) -> String {
+    let (days, rem) = (secs / 86400, secs % 86400);
+    let z = days as i64 + 719468;
+    let era = z.div_euclid(146097);
+    let doe = z.rem_euclid(146097);
+    let yoe = (doe - doe / 1460 + doe / 36524 - doe / 146096) / 365;
+    let doy = doe - (365 * yoe + yoe / 4 - yoe / 100);
+    let mp = (5 * doy + 2) / 153;
+    let d = doy - (153 * mp + 2) / 5 + 1;
+    let m = if mp < 10 { mp + 3 } else { mp - 9 };
+    let y = yoe + era * 400 + if m <= 2 { 1 } else { 0 };
+    format!("{y:04}-{m:02}-{d:02}T{:02}:{:02}:{:02}Z", rem / 3600, rem % 3600 / 60, rem % 60)
 }

@@ -12,6 +12,7 @@ use rand::SeedableRng;
 use rand_pcg::Pcg64Mcg;
 
 pub mod fixture;
+pub mod floor;
 pub mod http;
 pub mod llamaguard;
 pub mod shieldgemma;

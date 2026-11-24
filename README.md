@@ -33,6 +33,8 @@ Inter-rater check (source label vs one blind re-rating of 40 items per fixture):
 
 **Per-policy row (amendment 3).** Asked one principle at a time and scored on the maximum P(Yes) over the four, ShieldGemma's recall rises to 0.49 [0.40, 0.59] in-distribution and 0.65 [0.56, 0.74] out-of-distribution at precision 1.00, and ECE stays at 0.24 and 0.27. Both parts of the registered prediction held (recall up, calibration still failing), and the row is still not certified: the discrimination gate needs a recall lower bound of 0.85 and the per-policy protocol reaches 0.56.
 
+**Constant-responder floor (`guardaudit floor`).** On the OOD fixture the always-flag responder scores F1 0.8333 [0.7826, 0.88], so 2 of the 3 audited rows fall below it: ShieldGemma 2B per-policy max F1 0.7879 and all-in-one F1 0.6111, against Llama Guard 3 8B at 0.9691. The registered prediction (exactly 2) held. Source: `results/584-constant-floor.json`.
+
 Rendered by `guardaudit report` from `results/*.json`. The fixtures' texts are not in the repository; `results/fixtures.manifest.json` holds a SHA-256 per item with its label and source, and each result file carries every example's hash and score. [docs/PREREGISTRATION.md](docs/PREREGISTRATION.md) amendment 1 fixed the classifier, the score rule, the fixtures, the threshold and the kappa procedure before the first score was computed.
 
 ## Live audit, step by step
