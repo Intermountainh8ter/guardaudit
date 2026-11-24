@@ -11,6 +11,7 @@
 use rand::SeedableRng;
 use rand_pcg::Pcg64Mcg;
 
+pub mod brier_skill;
 pub mod fixture;
 pub mod floor;
 pub mod http;

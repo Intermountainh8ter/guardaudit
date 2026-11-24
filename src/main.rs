@@ -111,6 +111,17 @@ enum Cmd {
         #[arg(long)]
         out: PathBuf,
     },
+    /// Score the constant-prevalence predictor (Brier p(1-p)) on the committed labels and count classifier rows with a worse Brier score.
+    BrierSkill {
+        #[arg(long, default_value = "results")]
+        results_dir: PathBuf,
+        #[arg(long, default_value_t = 586)]
+        seed: u64,
+        #[arg(long, default_value_t = 2000)]
+        bootstrap: usize,
+        #[arg(long)]
+        out: PathBuf,
+    },
     Version,
 }
 
@@ -310,6 +321,45 @@ fn main() -> anyhow::Result<()> {
             });
             std::fs::write(&out, serde_json::to_string_pretty(&doc)?)?;
             println!("ood: {} of {} rows below the best constant F1", doc["floor"]["ood"]["classifiers_below_floor"], doc["floor"]["ood"]["classifiers_audited"]);
+        }
+        Cmd::BrierSkill { results_dir, seed, bootstrap, out } => {
+            let started = std::time::Instant::now();
+            let started_at = std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH)?.as_secs();
+            let mut files: Vec<PathBuf> = std::fs::read_dir(&results_dir)?.filter_map(|e| e.ok()).map(|e| e.path()).filter(|p| p.extension().map_or(false, |e| e == "json") && p.file_name().map_or(false, |f| { let f = f.to_string_lossy(); !f.contains("manifest") && !f.starts_with("kappa") && !f.contains("floor") })).collect();
+            files.sort();
+            let mut report = serde_json::Map::new();
+            let mut used = Vec::new();
+            for (key, fkey) in [("id", "id"), ("ood", "ood")] {
+                let mut rows: Vec<(String, Vec<f64>)> = Vec::new();
+                let mut labels: Option<Vec<bool>> = None;
+                for f in &files {
+                    let v: serde_json::Value = serde_json::from_str(&std::fs::read_to_string(f)?)?;
+                    let Some(ex) = v["examples"][fkey].as_array() else { continue };
+                    let l: Vec<bool> = ex.iter().map(|e| e["unsafe_label"].as_bool().unwrap_or(false)).collect();
+                    match &labels {
+                        None => labels = Some(l),
+                        Some(prev) => anyhow::ensure!(*prev == l, "label mismatch in {}", f.display()),
+                    }
+                    rows.push((v["certification"]["classifier"].as_str().unwrap_or("?").to_string(), ex.iter().map(|e| e["score"].as_f64().unwrap_or(f64::NAN)).collect()));
+                    let name = f.file_name().unwrap().to_string_lossy().to_string();
+                    if !used.contains(&name) { used.push(name); }
+                }
+                let labels = labels.ok_or_else(|| anyhow::anyhow!("no results with examples.{fkey}"))?;
+                report.insert(key.into(), guardaudit::brier_skill::fixture_skill(&rows, &labels, bootstrap, seed));
+            }
+            let doc = serde_json::json!({
+                "brier_skill": report,
+                "provenance": {
+                    "started_at": chrono_like(started_at),
+                    "seeds": [seed],
+                    "command": format!("guardaudit brier-skill --results-dir {} --seed {} --bootstrap {} --out {}", results_dir.display(), seed, bootstrap, out.display()),
+                    "hardware": "CPU only, no GPU",
+                    "wall_s": started.elapsed().as_secs_f64(),
+                    "data_sources": [{"url": "projects/ai/guardaudit/results (committed per-example scores and labels)", "license": "MIT, this repository", "files": used}],
+                },
+            });
+            std::fs::write(&out, serde_json::to_string_pretty(&doc)?)?;
+            println!("ood: {} of {} rows worse than the prevalence-constant Brier", doc["brier_skill"]["ood"]["classifiers_worse_than_prevalence"], doc["brier_skill"]["ood"]["classifiers_audited"]);
         }
         Cmd::Version => println!("guardaudit {}", env!("CARGO_PKG_VERSION")),
     }

@@ -35,6 +35,8 @@ Inter-rater check (source label vs one blind re-rating of 40 items per fixture):
 
 **Constant-responder floor (`guardaudit floor`).** On the OOD fixture the always-flag responder scores F1 0.8333 [0.7826, 0.88], so 2 of the 3 audited rows fall below it: ShieldGemma 2B per-policy max F1 0.7879 and all-in-one F1 0.6111, against Llama Guard 3 8B at 0.9691. The registered prediction (exactly 2) held. Source: `results/584-constant-floor.json`.
 
+**Prevalence-constant Brier floor (`guardaudit brier-skill`).** On the OOD fixture a predictor that ignores the input and always outputs the unsafe prevalence (0.7142857142857143 of 140 examples) scores Brier 0.20408163265306123. ShieldGemma 2B per-policy max scores 0.21284676587295276 and all-in-one 0.28219398437272475, both worse, against Llama Guard 3 8B at 0.025742264788672427, so 2 of the 3 audited rows are worse than the constant. The per-policy difference interval [-0.0629922853067365, 0.08843369549423427] spans zero, so that row is not separable from the constant at 2,000 resamples. On the in-distribution fixture 0 of 3 are worse. The registered prediction (exactly 2 on OOD) held. Source: `results/586-brier-skill.json`.
+
 Rendered by `guardaudit report` from `results/*.json`. The fixtures' texts are not in the repository; `results/fixtures.manifest.json` holds a SHA-256 per item with its label and source, and each result file carries every example's hash and score. [docs/PREREGISTRATION.md](docs/PREREGISTRATION.md) amendment 1 fixed the classifier, the score rule, the fixtures, the threshold and the kappa procedure before the first score was computed.
 
 ## Live audit, step by step

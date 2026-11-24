@@ -1,0 +1,134 @@
+{
+  "brier_skill": {
+    "id": {
+      "classifiers": [
+        {
+          "brier": 0.007839199863229777,
+          "brier_ci95": [
+            0.00025421404111659884,
+            0.02064085249628793
+          ],
+          "brier_skill": 0.9686432005470809,
+          "classifier": "Llama-Guard-3-8B Q8_0 (llama.cpp, one slot, temperature 0)",
+          "diff_ci95": [
+            -0.2495089421076501,
+            -0.22694602115752632
+          ],
+          "diff_vs_prevalence": -0.24216080013677022,
+          "worse_than_prevalence": false
+        },
+        {
+          "brier": 0.1846454847459112,
+          "brier_ci95": [
+            0.13931458532739469,
+            0.23323986635240343
+          ],
+          "brier_skill": 0.26141806101635523,
+          "classifier": "ShieldGemma 2B Q8_0, per-policy max (QuantFactory GGUF, llama.cpp, one slot, temperature 0)",
+          "diff_ci95": [
+            -0.10873278031097472,
+            -0.013414103879483996
+          ],
+          "diff_vs_prevalence": -0.06535451525408881,
+          "worse_than_prevalence": false
+        },
+        {
+          "brier": 0.247651255656086,
+          "brier_ci95": [
+            0.20137512396974142,
+            0.2980238123454615
+          ],
+          "brier_skill": 0.009394977375655977,
+          "classifier": "ShieldGemma 2B Q8_0 (QuantFactory GGUF, llama.cpp, one slot, temperature 0)",
+          "diff_ci95": [
+            -0.04546037443506143,
+            0.05008908976302526
+          ],
+          "diff_vs_prevalence": -0.0023487443439139943,
+          "worse_than_prevalence": false
+        }
+      ],
+      "classifiers_audited": 3,
+      "classifiers_worse_than_prevalence": 0,
+      "n": 200,
+      "n_unsafe": 100,
+      "prevalence": 0.5,
+      "prevalence_brier": 0.25
+    },
+    "ood": {
+      "classifiers": [
+        {
+          "brier": 0.025742264788672427,
+          "brier_ci95": [
+            0.007561095412203557,
+            0.04837348443300617
+          ],
+          "brier_skill": 0.8738629025355051,
+          "classifier": "Llama-Guard-3-8B Q8_0 (llama.cpp, one slot, temperature 0)",
+          "diff_ci95": [
+            -0.21424054698065673,
+            -0.13314920370851602
+          ],
+          "diff_vs_prevalence": -0.1783393678643888,
+          "worse_than_prevalence": false
+        },
+        {
+          "brier": 0.21284676587295276,
+          "brier_ci95": [
+            0.15608866934597934,
+            0.2696656605902078
+          ],
+          "brier_skill": -0.04294915277746858,
+          "classifier": "ShieldGemma 2B Q8_0, per-policy max (QuantFactory GGUF, llama.cpp, one slot, temperature 0)",
+          "diff_ci95": [
+            -0.0629922853067365,
+            0.08843369549423427
+          ],
+          "diff_vs_prevalence": 0.00876513321989153,
+          "worse_than_prevalence": true
+        },
+        {
+          "brier": 0.28219398437272475,
+          "brier_ci95": [
+            0.22463977202451016,
+            0.33810191686737756
+          ],
+          "brier_skill": -0.3827505234263513,
+          "classifier": "ShieldGemma 2B Q8_0 (QuantFactory GGUF, llama.cpp, one slot, temperature 0)",
+          "diff_ci95": [
+            0.0031125699092707793,
+            0.16058965948498155
+          ],
+          "diff_vs_prevalence": 0.07811235171966352,
+          "worse_than_prevalence": true
+        }
+      ],
+      "classifiers_audited": 3,
+      "classifiers_worse_than_prevalence": 2,
+      "n": 140,
+      "n_unsafe": 100,
+      "prevalence": 0.7142857142857143,
+      "prevalence_brier": 0.20408163265306123
+    }
+  },
+  "provenance": {
+    "command": "guardaudit brier-skill --results-dir results --seed 586 --bootstrap 2000 --out results/586-brier-skill.json",
+    "data_sources": [
+      {
+        "files": [
+          "llama-guard-3-8b-q8.json",
+          "shieldgemma-2b-q8-perpolicy.json",
+          "shieldgemma-2b-q8.json"
+        ],
+        "license": "MIT, this repository",
+        "url": "projects/ai/guardaudit/results (committed per-example scores and labels)"
+      }
+    ],
+    "hardware": "CPU only, no GPU",
+    "seeds": [
+      586
+    ],
+    "started_at": "2026-11-24T12:27:13Z",
+    "wall_s": 0.026238722
+  }
+}
