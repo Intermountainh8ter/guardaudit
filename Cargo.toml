@@ -31,3 +31,5 @@ path = "src/main.rs"
 [lib]
 name = "guardaudit"
 path = "src/lib.rs"
+
+[workspace]
